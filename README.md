@@ -19,3 +19,14 @@
 * Mongo
 
 * Nest
+
+
+
+<h1>Iniciar Docker</h1>
+
+* prod
+    ``` docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build ```
+<h3>build solo db</h3>
+
+*solo db
+    ``` docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -d  ```
